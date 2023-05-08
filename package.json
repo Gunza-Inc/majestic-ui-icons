@@ -1,6 +1,6 @@
 {
   "name": "majestic-ui-icons",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Majestic UI Icons",
   "keywords": [
     "components",
@@ -18,8 +18,13 @@
       "email": "mr.nonamerz08@yandex.ru"
     }
   ],
+  "main": "index.js",
   "files": ["icons"],
   "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.js"
+    },
     "./icons/": "./icons/"
   },
   "license": "UNLICENSED"
