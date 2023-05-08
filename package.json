@@ -1,0 +1,26 @@
+{
+  "name": "majestic-ui-icons",
+  "version": "1.0.1",
+  "description": "Majestic UI Icons",
+  "keywords": [
+    "components",
+    "ui",
+    "majestic",
+    "vue 3"
+  ],
+  "author": {
+    "name": "Vlad Tkachenko",
+    "email": "vladtka4enko@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Ilya Issakov",
+      "email": "mr.nonamerz08@yandex.ru"
+    }
+  ],
+  "files": ["icons"],
+  "exports": {
+    "./icons/": "./icons/"
+  },
+  "license": "UNLICENSED"
+}
